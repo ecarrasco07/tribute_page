@@ -1,0 +1,92 @@
+body {
+    background-color: #02172E;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*
+Styling for the main page
+Includes: header, image, timeline and footer
+*/
+#main {
+    background-color: hsla(240, 10%, 21%, 0.527);
+    margin: 25px 10px 25px 10px;
+    border-radius: 20px;
+}
+
+/*
+Styling for the header of the page
+*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 50px 25px 50px;
+    
+}
+header > #title{
+    margin:30 auto 10px auto;
+}
+header > #title-caption{
+    margin: 5px auto 10px auto;
+}
+
+/*
+Styling for the image
+*/
+
+#img-fig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #02172E;
+    border-radius: 20px;
+}
+#image{
+    max-height: 80%;
+    max-width: 95%;
+    padding: 10px 10px 10px 10px;
+}
+
+#image-caption{
+    margin: 15px 0 10px 0;
+}
+
+/*
+Styling for the timeline
+*/
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timeline {
+    padding: 10px 40px;
+}
+
+
+article > ul > li{
+    padding: 5px 0;
+}
+
+/*
+Styling for the footer of the page
+*/
+footer{
+    text-align: center;
+    margin: 0px auto 30px auto;
+    border: 1px solid transparent;
+}
+#tribute-link{
+    color: #9fcdff;
+}
+
+#tribute-link:hover{
+    color: rgb(32, 146, 253);
+}
+
